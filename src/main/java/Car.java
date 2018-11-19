@@ -2,7 +2,7 @@
 public class Car {
 	
 	private Integer speed;
-	private String color;
+	private String bodyColor;
 	public Integer getSpeed() {
 		return speed;
 	}
@@ -10,10 +10,14 @@ public class Car {
 		this.speed = speed;
 	}
 	public String getColor() {
-		return color;
+		return bodyColor;
 	}
 	public void setColor(String color) {
-		this.color = color;
+		this.bodyColor = color;
+	}
+	
+	public void yume() {
+		System.out.println("ゆめさん");
 	}
 	
 
