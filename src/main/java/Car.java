@@ -19,6 +19,5 @@ public class Car {
 	public void yume() {
 		System.out.println("ゆめさん");
 	}
-	
 
 }
