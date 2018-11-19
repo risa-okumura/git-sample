@@ -2,7 +2,7 @@
 public class Car {
 	
 	private Integer speed;
-	private String color;
+	private String body_color;
 	public Integer getSpeed() {
 		return speed;
 	}
@@ -10,11 +10,10 @@ public class Car {
 		this.speed = speed;
 	}
 	public String getColor() {
-		return color;
+		return body_color;
 	}
 	public void setColor(String color) {
-		this.color = color;
+		this.body_color = color;
 	}
-	
 
 }
